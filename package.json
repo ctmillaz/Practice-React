@@ -1,0 +1,23 @@
+{
+  "name": "indecision-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Chad Miller",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "babel": "babel src/app.js --out-file=public/scripts/app.js --presets=env,react  --watch | live-server public/",
+    "playground": "babel src/playground/es6-let-const.js --out-file=public/scripts/app.js --presets=env,react  --watch | live-server public/",
+    "arrow": "babel src/playground/es6-arrow-function.js --out-file=public/scripts/app.js --presets=env,react  --watch | live-server public/",
+    "arrow2": "babel src/playground/es6-arrow-function-2.js --out-file=public/scripts/app.js --presets=env,react  --watch | live-server public/",
+    "buildit": "babel src/playground/build-it-visible.js --out-file=public/scripts/app.js --presets=env,react  --watch | live-server public/",
+    "class1": "babel src/playground/es-classes-1.js --out-file=public/scripts/app.js --presets=env,react  --watch | live-server public/",
+    "oldapp": "babel src/playground/jsx-indecision.js --out-file=public/scripts/app.js --presets=env,react  --watch | live-server public/",
+    "compsta1": "babel src/playground/compsta1.js --out-file=public/scripts/app.js --presets=env,react  --watch | live-server public/",
+    "vissta1": "babel src/playground/vissta1.js --out-file=public/scripts/app.js --presets=env,react  --watch | live-server public/"
+  },
+  "dependencies": {
+    "babel-preset-env": "1.5.2",
+    "babel-preset-react": "6.24.1"
+  }
+}
